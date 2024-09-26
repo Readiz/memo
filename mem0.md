@@ -31,3 +31,4 @@
 - 단기 메모리가 전체 공간의 75% 이상을 차지하면, 프롬포트로 압축을 유도함 (전체 8k)
   - gpt_summarize
 - 계속 llm 시켜서 (prompt 복잡하게 해서) 업데이트 하는게 MemGPT의 컨셉
+  - MemGPT는 그냥 llm을 쓰는 거라고 보면 됨 (시스템 프롬포트로 archival memory / recall memory 어디로 보낼지 정하는게 llm)
