@@ -23,9 +23,11 @@
 - Recall: 전체 chat
   - 일부가 Archival로 전달
  - 장기/단기 정의 필요
- - In-Context 메모리 - 항상 프롬포트에서 들고다니는거
+ - In-Context 메모리 - 항상 프롬포트에서 들고다니는거. 사람에 대한 정보만 들어감. (강아지는 안들어감)
    - Core Memory(2k): initial memory. human + persona
    - functions
      - core_memory_append
      - core_memory_replace
--
+- 단기 메모리가 전체 공간의 75% 이상을 차지하면, 프롬포트로 압축을 유도함 (전체 8k)
+  - gpt_summarize
+- 계속 llm 시켜서 (prompt 복잡하게 해서) 업데이트 하는게 MemGPT의 컨셉
