@@ -9,9 +9,9 @@
   - search
   - update
 - 저장시에 vectordb + rdb + graphdb 세가지를 모두 다 씀
-  - base는 vectordb
+  - base는 vectordb (최신만 가지고 있음)
   - graph는 관계
-  - key-value는 전체 저장 관점
+  - key-value는 전체 저장 관점 (과거 정보도 바뀌는게 보임)
 - flow
   - add: deduct llm 거친 뒤의 정보를 db search 해서 새로운거면 저장함 -> 새로운거 판단도 llm이 함. (판단의 tool로 add, update, delete를 사용)
 
