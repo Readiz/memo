@@ -17,3 +17,15 @@
 
 
  # MemGPT
+
+- 장단기 메모리를 고려해서 Context length를 어떻게 효율적으로 잘 관리할 것인가. 외부 저장 장치를 이용해서 효율적으로 관리하겠다.
+- Archival: 문서
+- Recall: 전체 chat
+  - 일부가 Archival로 전달
+ - 장기/단기 정의 필요
+ - In-Context 메모리 - 항상 프롬포트에서 들고다니는거
+   - Core Memory(2k): initial memory. human + persona
+   - functions
+     - core_memory_append
+     - core_memory_replace
+-
