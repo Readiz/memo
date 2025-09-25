@@ -1,3 +1,4 @@
-# Secret zone
+# Memo
 
-Work smart! without Gauss!
+AWS 책: https://wikidocs.net/266250
+
